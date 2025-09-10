@@ -29,7 +29,6 @@ class Square extends Rectangle {
     super(side, side);
   }
 
-  // Method to calculate perimeter
   getPerimeter() {
     return 4 * this._width; 
   }
